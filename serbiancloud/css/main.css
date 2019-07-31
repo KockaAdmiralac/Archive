@@ -1,0 +1,110 @@
+/**
+ * main.css
+ *
+ * Main CSS file for SerbianCloud
+ */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round|Ubuntu+Mono');
+
+img:not([src]) {
+    display: none;
+}
+
+body {
+    text-align: center;
+    background-color: #CCCCCC;
+    font-family: "Varela Round", sans-serif;
+}
+
+#wrapper {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    background-color: #EEEEEE;
+    box-shadow: -2px 5px 5px #AAAAAA;
+}
+
+#header {
+    background-color: #04A2D6;
+    padding: 0.2em;
+    font-size: 4em;
+}
+
+#content {
+    padding: 1em;
+}
+
+#input {
+    display: block;
+    width: 100%;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 1.2em;
+    outline-color: #AAAAAA;
+}
+
+#input.error {
+    outline-color: #FF5544;
+}
+
+#submit {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    background-color: #04A2D6;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0.5em;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 5px #999999;
+    transition: background-color 0.5s;
+}
+
+#submit.loading {
+    background-image: url("../img/loader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00C0FF;
+}
+
+#footer {
+    background-color: #DDDDDD;
+    padding: 0.1em;
+}
+
+#result {
+    width: 100%;
+}
+
+@media print {
+    * {
+        display: none;
+    }
+}
+
+/**
+ * Mobile devices
+ */
+@media (max-width: 1024px) {
+    #wrapper {
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+    }
+
+    #header {
+        font-size: 3em;
+    }
+}
+
+/**
+ * Tablets
+ */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #header {
+        font-size: 4em;
+    }
+    #input, #submit, #footer {
+        font-size: 2em;
+    }
+}

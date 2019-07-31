@@ -1,0 +1,4 @@
+bin/*.jar
+config.json
+keys/*.pem
+node_modules

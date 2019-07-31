@@ -1,0 +1,25 @@
+{
+    "name": "reuploads",
+    "version": "1.0.0",
+    "description": "Checks reuploaded files to Community Central.",
+    "keywords": [
+        "wikia",
+        "fandom",
+        "chat"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "author": {
+        "name": "KockaAdmiralac",
+        "email": "1405223@gmail.com",
+        "url": "https://github.com/KockaAdmiralac"
+    },
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "request-promise-native": ">=1.0.7",
+        "request": ">=2.88.0"
+    },
+    "private": true
+}

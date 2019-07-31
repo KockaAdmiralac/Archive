@@ -1,0 +1,9 @@
+{
+      "server": "oneshot.fandom.com",
+      "path": "",
+      "debug": false,
+      "username": "KockaBot",
+      "password": "yes",
+      "userAgent": "woah it's nodemw",
+      "concurrency": 5
+}

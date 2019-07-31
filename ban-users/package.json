@@ -1,0 +1,23 @@
+{
+    "name": "ban-users",
+    "version": "1.0.0",
+    "description": "Changes all nicknames on a Discord server",
+    "keywords": [
+        "discord"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "author": {
+        "name": "KockaAdmiralac",
+        "email": "1405223@gmail.com",
+        "url": "https://github.com/KockaAdmiralac"
+    },
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "request-promise-native": ">=1.0.7",
+        "request": ">=2.88.0"
+    },
+    "private": true
+}
