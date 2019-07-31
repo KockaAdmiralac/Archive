@@ -17,8 +17,8 @@
         "start": "node main.js"
     },
     "dependencies": {
-        "request": "^2.87.0",
-        "request-promise-native": "^1.0.5"
+        "request": ">=2.88.0",
+        "request-promise-native": ">=1.0.7"
     },
     "private": true
 }
