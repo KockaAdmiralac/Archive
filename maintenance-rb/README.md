@@ -18,6 +18,7 @@ These are short Ruby scripts I used to run for maintenance tasks from my server.
   to find all websites and it ran 4 days and it sucked but it resulted in about
   8000 spam profiles being cleaned up so I believe it was worth an upgrade.
   There is also `websites3.rb` that is actively used.
+- `websites3.rb` - No, there isn't.
 - `maintenance.rb` - Given a list of pages in `forums.txt`, it finds a phrase in
   their contents and outputs the pages that contain that phrase. Originally used
   when Community Central was getting ShowHide removed from its imports and I had
