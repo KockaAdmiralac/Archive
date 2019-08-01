@@ -1,0 +1,24 @@
+{
+    "name": "csnedelja",
+    "version": "1.0.0",
+    "description": "My solution to the task #3 on mgcsweek v5.0.",
+    "keywords": [
+        "mgcsweek"
+    ],
+    "license": "GPL-3.0-or-later",
+    "author": {
+        "name": "KockaAdmiralac",
+        "email": "1405223@gmail.com",
+        "url": "https://github.com/KockaAdmiralac"
+    },
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "heap": ">=0.2.6"
+    },
+    "devDependencies": {
+        "eslint": ">=6.1.0"
+    }
+}
