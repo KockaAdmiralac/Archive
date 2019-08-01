@@ -1,0 +1,26 @@
+{
+    "name": "double-rename",
+    "version": "1.0.0",
+    "description": "Fixes double redirects left after double renames.",
+    "keywords": [
+        "wikia",
+        "fandom"
+    ],
+    "license": "GPL-3.0-or-later",
+    "author": {
+        "name": "KockaAdmiralac",
+        "email": "1405223@gmail.com",
+        "url": "https://github.com/KockaAdmiralac"
+    },
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "request": ">=2.88.0",
+        "request-promise-native": ">=1.0.7"
+    },
+    "devDependencies": {
+        "eslint": ">=6.1.0"
+    }
+}
