@@ -1,0 +1,73 @@
+Poenta igre je da klikćete na 
+lopticu.
+
+Loptica odskače i ubrzava s 
+svakim novim kliktanjem.
+
+Ako za "glavu" lopte smatramo 
+onaj deo lopte kojim će ona da 
+udari od zid, a za "rep" deo 
+lopte koji je najudaljeniji od 
+"glave", onda treba da 
+napomenem da se lopta NE MOŽE 
+udarati po "repu", već 
+isključivo po "glavi".
+
+Igra zasad ima 6 modova : 
+
+1. Classic
+Unosi se koliko puta treba da 
+kliknete na loptu, i poenta je 
+da se za što kraće vreme klikne 
+toliko puta koliko je uneseno.
+
+2. Timed
+Unosi se koliko vremena udarate 
+loptu, i posnta je da za dato 
+vreme kliknete što više puta.
+
+3. Challenge
+Unosi se koliko puta ćete 
+kliknuti i za koliko vremena 
+ćete kliknuti, i poenta je da 
+za uneseno vreme kliknete 
+uneseno puta.
+
+4. Accurate
+Unosi se koliko puta treba da 
+kliknete na loptu, i poenta je 
+da sa svakim klikom kliknete na 
+loptu, jer sa svakim klikom, 
+bilo na loptu ili van nje 
+smanjuje se broj unesenih 
+klikova.
+
+5. Accurate & Fast
+Unosi se koliko vremena udarate 
+loptu, i poenta je da sa svakim 
+klikom kliknete na loptu, jer se
+za klik na loptu dobija 2, 
+a van nje -1 poen.
+
+6. Don't touch the walls!
+Unosi se broj "života", 
+i poenta je da lopta ne dodirne 
+"zid", jer se sa svakim dodirom 
+gubi jedan "život"
+
+Može se izabrati da li se 
+koristi audio (tj. zvuk) ili ne.
+
+Na kraju se ( ako je tako 
+konfigurisano ) pojavi unos 
+imena i on služi tome da se 
+svaki rezultat stavlja u 
+datoteku "highscores.txt", 
+koja se enkriptuje, 
+i ne može da se pročita.
+
+Zvuk, brzina igre, 
+najbolji rezultati i još razne 
+stvari mogu se podesiti u 
+konfiguraciji u fajlu 
+"kivy_conf.py"

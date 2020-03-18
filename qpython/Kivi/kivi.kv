@@ -1,0 +1,25 @@
+#:kivy 1.0.9
+
+<KiviBall>:
+    canvas:
+        Ellipse:
+            pos: self.pos
+            size: self.size
+
+<Kivi>:
+    #button_1: button_1
+    #button_2: button_2
+    ball: pong_ball
+    Label:
+        font_size: 70
+        center_x: root.width / 2
+        top: root.top - 50
+        text: str(int(root.time))
+    Label:
+        font_size: 70
+        center_x: root.width / 2
+        top: root.top - 100
+        text: str(root.score)
+    KiviBall:
+        id: pong_ball
+        center: self.parent.center

@@ -8,8 +8,8 @@
     "license": "GPL-3.0-or-later",
     "author": {
         "name": "KockaAdmiralac",
-        "email": "1405223@gmail.com",
-        "url": "https://github.com/KockaAdmiralac"
+        "email": "git@kocka.tech",
+        "url": "https://kocka.tech"
     },
     "main": "main.js",
     "scripts": {
@@ -19,6 +19,6 @@
         "heap": ">=0.2.6"
     },
     "devDependencies": {
-        "eslint": ">=6.1.0"
+        "eslint": ">=6.8.0"
     }
 }

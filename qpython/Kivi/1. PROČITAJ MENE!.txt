@@ -1,0 +1,45 @@
+Dakle, ovo je moja igrica.
+Nisam joj još smislio naziv.
+Redosled šta treba uraditi da bi
+se ona igrala :
+
+1. Instalirajte fajl QPython.apk
+To je okruženje koje treba da bi
+se igra pokrenula. 
+Isto tako možete instalirati 
+QPython s Play Store, 
+ali ovako je brže.
+
+2. Kad ga instalirate, 
+uđite u njega, 
+prevucite desno prstom i 
+kliknite Console.
+Kad se uključi konzola, 
+isključite je.
+
+3. Na Vašoj internoj memoriji 
+nađite folder 
+"com.hipipal.qpyplus". 
+U njemu su folderi "scripts", 
+"projects"... 
+U "projects" napravite folder 
+"Kivi" i u njega stavite sve 
+fajlove koje ste dobili, 
+a koji nisu instalacija niti 
+ovaj fajl.
+
+4. Uđite u QPython ponovo i 
+idite u "Programs". 
+Trebalo bi da se pojavi "Kivi" 
+kao projekat unutar "Projects"
+( ako se ne pojavi, 
+restartujte QPython ). 
+Kliknite na njega, 
+pa kliknite "Open". 
+Onda kliknite na "main.py", 
+pa ponovo "Open". 
+Onda kliknite na strelicu na dnu
+ekrana koja označava pokretanje
+skripte.
+
+5. Jej, pokrenuli ste igricu!

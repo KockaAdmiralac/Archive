@@ -10,16 +10,16 @@
     "license": "CC-BY-SA-4.0",
     "author": {
         "name": "KockaAdmiralac",
-        "email": "1405223@gmail.com",
-        "url": "https://github.com/KockaAdmiralac"
+        "email": "git@kocka.tech",
+        "url": "https://kocka.tech"
     },
     "main": "main.js",
     "scripts": {
         "start": "node main.js"
     },
     "dependencies": {
-        "request": "^2.87.0",
-        "request-promise-native": "^1.0.5"
+        "request": ">=2.88.2",
+        "request-promise-native": ">=1.0.8"
     },
     "private": true
 }

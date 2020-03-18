@@ -1,0 +1,15 @@
+1. Ako prekinete igru, 
+a muzika i dalje traje, 
+moraćete da je ponovo pokrenete 
+i odigrate jednu partiju, 
+u suprotnom će muzika i dalje da
+traje.
+
+2. Ako ne ukucate ime, 
+a odigrate partiju, NIKO, 
+pa čak ni ja, neće moći da 
+pročita fajl "highscores.txt", 
+i najbolji rezultati zauvek su 
+izgubljeni. 
+Ako se to desi, ispraznite fajl 
+"highscores.txt"
