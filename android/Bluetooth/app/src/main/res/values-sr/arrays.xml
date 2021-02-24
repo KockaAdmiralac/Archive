@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="device">
+		<item>Претражи</item>
+		<item>Упарени уређаји</item>
+	</array>
+	<array name="connect">
+		<item>Хостуј</item>
+		<item>Прикључи се</item>
+	</array>
+</resources>

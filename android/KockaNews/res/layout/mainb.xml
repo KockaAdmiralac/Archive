@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/action_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:layout_centerHorizontal="true"
+		android:id="@+id/txt1"
+		android:paddingTop="?android:attr/actionBarSize"
+	/>
+
+    <EditText
+		android:hint="@string/box_help_text"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:layout_centerHorizontal="true"
+		android:id="@+id/box1"
+		android:layout_below="@+id/txt1"
+		android:layout_marginTop="100px"
+	/>
+	<!--<fragment
+		android:name="rs.kockasystems.raqla.fragments.HeadFragment"
+		android:id="@+id/main_fragment"
+		android:layout_weight="1"
+		android:layout_width="0dip"
+		android:layout_height="match_parent"
+	/>
+
+    <fragment
+		android:name="rs.kockasystems.raqla.fragments.BodyFragment"
+		android:id="@+id/main_fragment"
+		android:layout_weight="2"
+		android:layout_width="0dip"
+		android:layout_height="match_parent"
+	/>
+    -->
+
+</RelativeLayout>

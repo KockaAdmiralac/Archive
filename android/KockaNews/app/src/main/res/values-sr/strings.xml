@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Коцка Вести</string>
+    <string name="welcome">Добро дошли у апликацију Коцка-Система!</string>
+    <string name="news">Вести</string>
+	<string name="news_url">http://127.0.0.1:8080/android/news.xml</string>
+	<string name="news_file">news.xml</string>
+	<string name="user_cache_file">user.txt</string>
+	<string name="share_text">Хеј! Нашао сам користан чланак зван 》%s《 на Коцка-Системовој (http://kocka.dilfa.com) апликацији! Пази да не пропустиш!</string>
+	<string name="db_url">http://127.0.0.1:8080/include/realnoBezvezeProgram.php</string>
+	<string name="logout_success">Успешна одјава!</string>
+	<string name="login_success">Успешна пријава!</string>
+	<string name="connect_error">Дошло је до грешке у конекцији.</string>
+	<string name="login_fail">Погрешно корисничко име или лозинка!</string>
+	<string name="log_out">Одјави се</string>
+	<string name="refresh">Освежи</string>
+	<string name="username">Корисничко име</string>
+	<string name="password">Лозинка</string>
+	<string name="about">О апликацији</string>
+	<string name="credits">
+		Ова апликација се користи као офлајн читач
+		вести из Коцка-Система.
+		
+		Коцка-Системи 2015. Сва права задржана.
+	</string>
+	
+</resources>

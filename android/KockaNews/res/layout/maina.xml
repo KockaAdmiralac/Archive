@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+		android:layout_centerHorizontal="true"
+        android:text="@string/welcome_text"
+		android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:textSize="30px"/>
+    <EditText
+		android:id="@+id/box1" 
+		android:hint="@string/username"
+		android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="50px"
+		android:layout_below="@+id/txt1"/>
+	<EditText
+		android:id="@+id/box2" 
+		android:hint="@string/password"
+		android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="10px"
+		android:layout_below="@+id/box1"
+		android:password="true"/>
+	<Button
+		android:text="@string/click_me"
+		android:onClick="button1_Click"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:id="@+id/button"
+		android:layout_below="@+id/box2"/>
+	<Button
+		android:text="@string/click_me"
+		android:onClick="button2_Click"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:id="@+id/button2"
+		android:layout_below="@+id/button"/>
+	
+</RelativeLayout>

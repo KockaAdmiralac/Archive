@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Кум</string>
+    <string name="title_activity_register">Регистрација</string>
+    <string name="title_activity_admin">Администрација</string>
+    <string name="user">Корисник</string>
+    <string name="user_register_text"><![CDATA[Секција испод је за регистровање корисника. Да бисте то урадили, морате испунити поља Име и Презиме и онда притиснути на дугме Скенирај. Након што скрнирате корисников QR код, појавиће се уместо <Ништа> текста, и онда ћете моћи да притиснете \'Региструј новог корисника\'. Ако корисник са истим QR кодом већ постоји, десиће се грешка.]]></string>
+    <string name="name">Име</string>
+    <string name="surname">Презиме</string>
+    <string name="username">Корисничко име</string>
+    <string name="password">Лозинка</string>
+    <string name="login">Улогуј се</string>
+    <string name="confirm_password">Потврди лозинку</string>
+    <string name="none"><![CDATA[<Ништа>]]></string>
+    <string name="scan">Скенирај</string>
+    <string name="register_new_user">Регистуј новог корисника</string>
+    <string name="start_payment">Откуцај карту</string>
+    <string name="add_sessions">Додај тренинге</string>
+    <string name="payment_text">Дугме испод се користи за откуцавање корисникове карте на тренингу. Када је притиснуто, бићете упитани да скенирате QR код и после тога 1 тренинг ће бити одузет са корисниковог броја тренинга за текући месец.</string>
+    <string name="payment">Уплата</string>
+    <string name="add_sessions_text">У одељку испод можете додавати тренинге на кориснички налог. То можете урадити уписивањем броја тренинга који треба да се додају у поље лево од \'Додај тренинге\' дугмета и онда притиснути на дугме да скенирате QR корисникове картице на коју треба додати тренинге.</string>
+    <string name="user_list">Листа корисника</string>
+    <string name="deletion">Брисање</string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    <string name="prompt_delete_admin">Обрисати тренера?</string>
+    <string name="sessions">Тренинзи</string>
+    <string name="export_checkouts">Извоз долазака</string>
+    <string name="export_payments">Извоз плаћања</string>
+    <string-array name="months">
+        <item>Јануар</item>
+        <item>Фебруар</item>
+        <item>Март</item>
+        <item>Април</item>
+        <item>Мај</item>
+        <item>Август</item>
+        <item>Септембар</item>
+        <item>Октобар</item>
+        <item>Новембар</item>
+        <item>Децембар</item>
+    </string-array>
+    <string-array name="user_dialog_list">
+        <item>Брисање</item>
+        <item>Тренинзи</item>
+    </string-array>
+    <!-- FULL ERRORS  -->
+    <string name="error_no_user">Не постоји тражени корисник.</string>
+    <string name="error_same_admin">Тренер са истим именом већ постоји!</string>
+    <string name="error_invalid_password">Комбинација корисничког имена и лозинке не постоји.</string>
+    <string name="error_match_password">Лозинке се не слажу!</string>
+    <string name="error_scan_user_nonexistent">Скенирани корисник не постоји у бази података.</string>
+    <string name="error_not_enough_terms">Овај корисник нема довољно тренинга!</string>
+    <string name="error_no_scanner">Немате ниједан скенер QR кодова.</string>
+    <!-- PARTIAL ERRORS -->
+    <string name="error_base">Десила се грешка током</string>
+    <string name="error_refresh_users">ажурирања корисника</string>
+    <string name="error_refresh_admins">ажурирања тренера</string>
+    <string name="error_updating_terms">ажурирања корисничких тренинга</string>
+    <string name="error_register_user">регистровања корисника</string>
+    <string name="error_register_admin">регистровања тренера</string>
+    <string name="error_adding_terms">додавања тренинга</string>
+    <string name="error_delete_admin">брисања тренера</string>
+    <string name="error_initializing_database">иницијализирања базе података</string>
+    <string name="error_register_payment">регистровања уплате у бази података</string>
+    <string name="error_register_checkout">регистровања доласка у бази података</string>
+    <string name="error_external_storage">читања екстерног складишта</string>
+    <string name="error_dump_payments">извоза података о уплатама</string>
+    <string name="error_dump_checkouts">извоза података о доласцима</string>
+
+    <string name="success_sessions_add">Тренинзи успешно додати!</string>
+    <string name="success_admin_delete">Тренер обрисан!</string>
+    <string name="success_admin_register">Тренер успешно регистрован!</string>
+    <string name="success_update_terms">Кориснички тренинзи ажурирани!</string>
+    <string name="success_user_register">Корисник успешно регистрован!</string>
+    <string name="success_dump_payments">Успешно извезени подаци о плаћању!</string>
+    <string name="success_dump_checkouts">Успешно извезени подаци о доласцима!</string>
+</resources>

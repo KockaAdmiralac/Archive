@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <Button
+        android:text="@string/connect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+		android:onClick="btConnect"
+		android:id="@+id/connectButton"
+	/>
+
+    <EditText
+		android:hint="@string/enterMessage"
+		android:id="@+id/messageBox"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+		android:layout_below="@+id/connectButton"
+	/>
+
+    <Button
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+		android:layout_below="@+id/messageBox"
+		android:onClick="sendMessage"
+		android:id="@+id/messageButton"
+		android:text="@string/sendMessage"
+	/>
+    <ScrollView
+		android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:layout_below="@+id/messageButton"
+		android:id="@+id/messageScroll"
+	>
+        <TextView
+	    	android:text="@string/messageLog"
+	    	android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+	    	android:id="@+id/messageLog"
+	    />
+    </ScrollView>
+
+</RelativeLayout>

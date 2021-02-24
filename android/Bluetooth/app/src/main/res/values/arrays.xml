@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="device">
+		<item>Search</item>
+		<item>Paired devices</item>
+	</array>
+	<array name="connect">
+		<item>Host</item>
+		<item>Join</item>
+	</array>
+</resources>

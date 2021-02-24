@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Kum</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_admin">Administration</string>
+    <string name="user">User</string>
+    <string name="user_register_text"><![CDATA[Section below is for registering a user. To do so, you need to fill up Name and Surname text boxes and then click on Scan button. After you scan user\'s QR code, it will appear instead of <None> text, and then you\'ll be able to click on \'Register new user\'. If a user with same QR code already exists, an error will occur.]]></string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="none"><![CDATA[<None>]]></string>
+    <string name="scan">Scan</string>
+    <string name="register_new_user">Register new user</string>
+    <string name="start_payment">Start payment</string>
+    <string name="add_sessions">Add sessions</string>
+    <string name="payment_text">Button below is used for starting checking user out on a training. When it\'s clicked, you will be prompted to scan a QR code and after that 1 session will be subtracted from user\'s session number for the current month.</string>
+    <string name="payment">Payment</string>
+    <string name="add_sessions_text">In the section below you can add sessions to a user. You can do that by entering a number of sessions to add to the text box left of the \'Add Sessions\' button and then click on the button to scan QR code of an iD card of a user to add sessions to.</string>
+    <string name="user_list">User list</string>
+    <string name="deletion">Deletion</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="prompt_delete_admin">Delete admin?</string>
+    <string name="sessions">Sessions</string>
+    <string name="export_checkouts">Export checkouts</string>
+    <string name="export_payments">Export payments</string>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="user_dialog_list">
+        <item>Delete</item>
+        <item>Terms</item>
+    </string-array>
+    <!-- FULL ERRORS  -->
+    <string name="error_no_user">No such user exists.</string>
+    <string name="error_same_admin">Admin with same name already exists!</string>
+    <string name="error_invalid_password">Username and password combination do not match.</string>
+    <string name="error_match_password">Passwords do not match!</string>
+    <string name="error_scan_user_nonexistent">Scanned user does not exist in the database.</string>
+    <string name="error_not_enough_terms">This user doesn\'t have enough terms!</string>
+    <string name="error_no_scanner">You don\'t have any QR code scanner installed.</string>
+    <!-- PARTIAL ERRORS -->
+    <string name="error_base">An error occurred while</string>
+    <string name="error_refresh_users">refreshing users</string>
+    <string name="error_refresh_admins">refreshing admins</string>
+    <string name="error_updating_terms">updating user terms</string>
+    <string name="error_register_user">registering user</string>
+    <string name="error_register_admin">registering admin</string>
+    <string name="error_adding_terms">adding terms</string>
+    <string name="error_delete_admin">deleting admin</string>
+    <string name="error_initializing_database">initializing database</string>
+    <string name="error_register_payment">registering payment in database</string>
+    <string name="error_register_checkout">registering checkout in database</string>
+    <string name="error_external_storage">reading external storage</string>
+    <string name="error_dump_payments">dumping payment data</string>
+    <string name="error_dump_checkouts">dumping checkout data</string>
+
+    <string name="success_sessions_add">Sessions successfully added!</string>
+    <string name="success_admin_delete">Admin deleted!</string>
+    <string name="success_admin_register">Admin registration successful!</string>
+    <string name="success_update_terms">User terms updated!</string>
+    <string name="success_user_register">User successfully registered!</string>
+    <string name="success_dump_payments">Successfully dumped payment data!</string>
+    <string name="success_dump_checkouts">Successfully dumped checkout data!</string>
+    <string name="dump_database">Dump database</string>
+</resources>

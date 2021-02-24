@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bluetooth разговор</string>
+    <!--  <string name=""></string>  -->
+	<string name="connect">Повежи се</string>
+	<string name="connection">Конекција</string>
+	<string name="enterMessage">Упиши поруку...</string>
+	<string name="sendMessage">Пошаљи поруку</string>
+	<string name="messageLog">Ваше поруке ће се појавити овде.\n\n</string>
+	<string name="notSupported">Ваш уређај не подржава Bluetooth!</string>
+	<string name="you">Ви</string>
+	<string name="accept">Прихвати</string>
+	<string name="reject">Одбиј</string>
+	<string name="deviceAccept">Прихвати уређај?</string>
+	<string name="deviceDialog">Уређај %s покушава да се повеже.\nПрихватити конекцију?</string>
+	<string name="deviceFound">Уређај пронађен!</string>
+	<string name="deviceNotFound">Није пронађен ниједан уређај.</string>
+	<string name="deviceChoose">Изаберите уређај</string> 
+	<string name="acceptFail1">Грешка при покретању прихватања.</string>
+	<string name="acceptFail2">Грешка при прихватању.</string>
+	<string name="acceptFail3">Грешка при гашењу прихватања.</string>
+	<string name="acceptSuccess">Конекција прихваћена!</string>
+	<string name="connectFail1">Грешка при покретању конекције.</string>
+	<string name="connectFail2">Грешка при конекцији.</string>
+	<string name="connectFail3">Грешка при гашењу конекције.</string>
+	<string name="connectSuccess">Конекција успостављена!</string>
+	<string name="inputGetFail">Грешка при узимању улазне конекције.</string>
+	<string name="outputGetFail">Грешка при узимању излазне конекције.</string>
+	<string name="connectionClosed">Конекција прекинута!</string>
+	<string name="discoveryFail">Грешка при покретању Bluetooth откривања.</string>
+	<string name="discoverySuccess"></string>
+	
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bluetooth chat</string>
+    <!--  <string name=""></string>  -->
+	<string name="connect">Connect</string>
+	<string name="connection">Connection</string>
+	<string name="enterMessage">Enter message...</string>
+	<string name="sendMessage">Send message</string>
+	<string name="messageLog">This is the message log.\nYour messages will show here.\n\n</string>
+	<string name="notSupported">Your device does not support Bluetooth!</string>
+	<string name="you">You</string>
+	<string name="accept">Accept</string>
+	<string name="reject">Reject</string>
+	<string name="deviceAccept">Accept device</string>
+	<string name="deviceDialog">Device %s is trying to connect.\nAccept connection?</string>
+	<string name="deviceFound">Found a device!</string>
+	<string name="deviceNotFound">No devices found.</string>
+	<string name="deviceChoose">Choose a device</string> 
+	<string name="acceptFail1">Unable to start accepting.</string>
+	<string name="acceptFail2">An exception occcured while accepting.</string>
+	<string name="acceptFail3">An exception occurred while closing server socket.</string>
+	<string name="acceptSuccess">Socket accepted!</string>
+	<string name="connectFail1">An exception occurred while making server socket</string>
+	<string name="connectFail2">An exception occurred while connecting the client socket..</string>
+	<string name="connectFail3">An exception occurred while closing the client socket.</string>
+	<string name="connectSuccess">Socket connected!</string>
+	<string name="inputGetFail">Unable to get input stream.</string>
+	<string name="outputGetFail">Unable to get output stream.</string>
+	<string name="connectionClosed">Connection closed!</string>
+	<string name="discoveryFail">An exception occurred while starting Bluetooth discovery.</string>
+	<string name="discoverySuccess"></string>
+	
+</resources>

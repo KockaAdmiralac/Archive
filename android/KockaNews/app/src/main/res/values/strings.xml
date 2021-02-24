@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kocka News</string>
+    <string name="welcome">Welcome to the login app of Kocka-Systems!</string>
+    <string name="news">News</string>
+	<string name="news_url">http://kocka.dilfa.com/android/news.xml</string>
+	<string name="news_file">news.xml</string>
+	<string name="user_cache_file">user.txt</string>
+	<string name="share_text">Hey! I found a useful article named 》%s《 on the Kocka-Systems (http://kocka.dilfa.com) app! Be sure not to miss it!</string>
+	<string name="db_url">http://kocka.dilfa.com/include/realnoBezvezeProgram.php</string>
+	<string name="logout_success">Successfully logged out!</string>
+	<string name="login_success">Successfully logged in!</string>
+	<string name="connect_error">There was an error in connection.</string>
+	<string name="login_fail">Wrong username or password!</string>
+	<string name="log_out">Log out</string>
+	<string name="refresh">Refresh</string>
+	<string name="username">Username</string>
+	<string name="password">Password</string>
+	<string name="about">About</string>
+	<string name="credits">
+		This application is used as an offline
+		Kocka-Systems news reader.
+		
+		This application has a version on Serbian.
+		If you want to use it, switch your default
+		language on Serbian.
+		
+		Copyright Kocka-Systems. All rights reserved.
+	</string>
+	<string name="version">Version : 0.2 - First official release</string>
+	<string name="forums_file">forums.xml</string>
+	<string name="forums_url">http://127.0.0.1:8080/android/getForum.php</string>
+	<string name="forums">Forums</string>
+	<string name="download_error">There was an error downloading.</string>
+	<string name="test">Test</string>
+	
+	
+</resources>
