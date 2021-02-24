@@ -1,0 +1,187 @@
+/* <syntaxhighlight lang="javascript"> */
+/**
+ * This page is used as a resource for messages used in the MessageWallActions script
+ * List of rules:
+ * - The page needs to follow JSON syntax:
+ * -- First-level keys are language codes
+ * -- Second-level keys are message codes (described in the English translation)
+ * -- No other levels or keys except described should be used
+ * - A language must not be partially translated - all messages must exists
+ * - CSS-style comments can be used.
+ * - For language fallback, add a string with the language code to fall back to instead of an object.
+ * List of currently translated languages and translators:
+ *  - English              - KockaAdmiralac
+ *  - Serbian              - KockaAdmiralac
+ *  - Brazilian Portuguese - Soul Wade
+ *  - Russian              - Mamvik
+ */
+{ /* Do not edit this line */
+    /* English */
+    "en": {
+        "messageWallActions": "Message Wall Actions",
+        "modalTitle": "Actions",
+        "execute": "Execute",
+        "cancel": "Cancel",
+        "error": "An error occurred while",
+        "success": "Successfully",
+        
+        "fetchThreadError": "fetching threads from the Message Wall",
+        
+        "deleteText": "Delete",
+        "nothingText": "Nothing",
+        "deleteDesc": "Deleting a Message Wall will cause all messages from it to disappear, but messages will still be there.<br/>Nuking a Message Wall will delete all threads from a Message Wall.<br/>Nuking and deleting will execute both.<br/> Select the option you want below and then click the Execute button.<br/>NOTE: Only users with delete rights can execute these actions!",
+        "deleteSuccess": "deleted the Message Wall",
+        "deleteError": "deleting the Message Wall",
+        "noMWError": "There is no such Message Wall!",
+        
+        "nukeText": "Nuke",
+        "nukeSuccess": "nuked the Message Wall",
+        "nukeError": "nuking the Message Wall",
+        
+        "redirectText": "Redirect",
+        "redirectDesc": "Enter the name of the Message Wall to redirect this Message Wall to below and then click the 'Execute' button",
+        "redirectSuccess": "redirected the Message Wall",
+        "redirectError": "redirecting the Message Wall",
+        
+        "unredirectText": "Unredirect",
+        "unredirectDesc": "To remove the redirect from this Message Wall, click the 'Execute' button",
+        "unredirectSuccess": "removed the redirect from the Message Wall",
+        "unredirectError": "removing the redirect from the Message Wall",
+        "noRedirectError": "This Message Wall isn't redirected!"
+    },
+    /* Serbian - Fallback to Cyrillic */
+    "sr": "sr-ec",
+    /* Српски - Ћирилица */
+    "sr-ec": {
+        "messageWallActions": "Акције Зида Порука",
+        "modalTitle": "Акције",
+        "execute": "Изврши",
+        "cancel": "Откажи",
+        "error": "Десила се грешка приликом",
+        "success": "Успешно",
+        
+        "fetchThreadError": "прибављања порука са Зида Порука",
+        
+        "deleteText": "Обриши",
+        "nothingText": "Ништа",
+        "deleteDesc": "Брисање Зида Порука ће изазвати да све поруке са Зида нестану, али ће технички и даље постојати.<br/>Уништавање Зида Порука ће обрисати све порука са Зида.<br/>Уништавање и брисање ће урадити оба.<br/>Изаберите жељену опцију и притисните 'Изврши' дугме.<br/>НАПОМЕНА: Само корисници са правима брисања могу извршавати ове акције!",
+        "deleteSuccess": "брисање Зида Порука",
+        "deleteError": "брисања Зида Порука",
+        "noMWError": "Зид Порука није нађен!",
+        
+        "nukeText": "Уништи",
+        "nukeSuccess": "уништен Зид Порука",
+        "nukeError": "уништавања Зида Порука",
+        
+        "redirectText": "Преусмери",
+        "redirectDesc": "Унесите име Зида Порука на који желите да преусмерите овај Зид и притисните 'Изврши' дугме",
+        "redirectSuccess": "преусмерен Зид Порука",
+        "redirectError": "преусмеравања Зида Порука",
+        
+        "unredirectText": "Избриши преусмерење",
+        "unredirectDesc": "Да избришете преусмерење са овог Зида Порука притисните 'Изврши' дугме.",
+        "unredirectSuccess": "обрисано преусмерење са Зида Порука",
+        "unredirectError": "брисања преусмерења са Зида Порука",
+        "noRedirectError": "Овај Зид Порука није преусмерен!"
+    },
+    /* Srpski - Latinica */
+    "sr-el": {
+        "messageWallActions": "Akcije Zida Poruka",
+        "modalTitle": "Akcije",
+        "execute": "Izvrši",
+        "cancel": "Otkaži",
+        "error": "Desila se greška prilikom",
+        "success": "Uspešno",
+        
+        "fetchThreadError": "pribavljanja poruka sa Zida Poruka",
+        
+        "deleteText": "Obriši",
+        "nothingText": "Ništa",
+        "deleteDesc": "Brisanje Zida Poruka će izazvati da sve poruke sa Zida nestanu, ali će tehnički i dalje postojati.<br/>Uništavanje Zida Poruka će obrisati sve poruke sa Zida.<br/>Uništavanje i brisanje će uraditi oba.<br/>Izaberite željenu opciju i pritisnite 'Izvrši' dugme.<br/>NAPOMENA: Samo korisnici sa pravima brisanja mogu izvršavati ove akcije!",
+        "deleteSuccess": "brisanje Zida Poruka",
+        "deleteError": "brisanja Zida Poruka",
+        "noMWError": "Zid Poruka nije nađen!",
+        
+        "nukeText": "Uništi",
+        "nukeSuccess": "uništen Zid Poruka",
+        "nukeError": "uništavanja Zida Poruka",
+        
+        "redirectText": "Preusmeri",
+        "redirectDesc": "Unesite ime Zida Poruka na koji želite da preusmerite ovaj Zid i pritisnite 'Izvrši' dugme.",
+        "redirectSuccess": "preusmeren Zid Poruka",
+        "redirectError": "preusmeravanja Zida Poruka",
+        
+        "unredirectText": "Izbriši preusmerenje",
+        "unredirectDesc": "Da izbrišete preusmerenje sa ovog Zida pritisnite 'Izvrši' dugme.",
+        "unredirectSuccess": "obrisano preusmerenje sa Zida Poruka",
+        "unredirectError": "brisanja preusmerenja sa Zida Poruka",
+        "noRedirectError": "Ovaj Zid Poruka nije preusmeren!"
+    },
+    /* Português do Brasil */
+    "pt-br": {
+        "messageWallActions": "Ações do Mural de Mensagens",
+        "modalTitle": "Ações",
+        "execute": "Executar",
+        "cancel": "Cancelar",
+        "error": "Um erro foi encontrado durante a tentativa de",
+        "success": "Completado com sucesso",
+        
+        "fetchThreadError": "buscar tópicos no Mural de Mensagens",
+        
+        "deleteText": "Deletar",
+        "nothingText": "Nada",
+        "deleteDesc": "Deletar um Mural de Mensagens vai fazer com que todas as mensagens contidas nele desapareçam, mas as mensagens ainda estarão lá<br/>Destruir um Mural de Mensagens irá deletar completamente todos os tópicos de um Mural de Mensagens.<br/>Destruir e deletar irá executar ambos.<br/>Selecione a opção que você deseja abaixo e, depois, clique no botão Executar.<br/>NOTA: Apenas usuários com direitos de exclusão podem executar estas ações!",
+        "deleteSuccess": "Mural de Mensagens deletado",
+        "deleteError": "deletar o Mural de Mensagens",
+        "noMWError": "O Mural de Mensagens referido não existe!",
+        
+        "nukeText": "Destruir",
+        "nukeSuccess": "Mural de Mensagens destruído",
+        "nukeError": "destruir o Mural de Mensagens",
+        
+        "redirectText": "Redirecionar",
+        "redirectDesc": "Insira o nome do Mural de Mensagens para onde o atual Mural de Mensagens deverá ser redirecionado e clique no botão 'Executar'",
+        "redirectSuccess": "Mural de Mensagens redirecionado",
+        "redirectError": "redirecionar o Mural de Mensagens",
+        
+        "unredirectText": "Desfazer Redirecionamento",
+        "unredirectDesc": "Para remover o redirecionamento deste Mural de Mensagens, clique no botão 'Executar'.",
+        "unredirectSuccess": "redirecionamento removido",
+        "unredirectError": "remover o redirecionamento do Mural de Mensagens",
+        "noRedirectError": "Este Mural de Mensagens nunca foi redirecionado!"
+    },
+    /* Русский */
+    "ru": {
+        "messageWallActions": "Действия со стеной обсуждения",
+        "modalTitle": "Действия",
+        "execute": "Выполнить",
+        "cancel": "Отменить",
+        "error": "Произошла ошибка при",
+        "success": "Успешно выполнено",
+        
+        "fetchThreadError": "загрузке тем на стене обсуждения",
+        
+        "deleteText": "Удалить",
+        "nothingText": "Ничего не делать",
+        "deleteDesc": "При удалении стены обсуждения все темы вместе со страницей исчезнут, но останутся на вики.<br/>При стирании стены обсуждения все темы, которые были созданы на ней, удалятся, а сама страница останется на месте.<br/>При удалении и стирании удалятся и темы, и страница обсуждения.<br/>Выберите нужную Вам функцию и нажмите кнопку 'Выполнить'.<br/>Примечание: Эти действия доступны только пользователям с правами удаления страниц!",
+        "deleteSuccess": "удаление стены обсуждения",
+        "deleteError": "удалении стены обсуждения",
+        "noMWError": "Такой стены обсуждения не существует!",
+        
+        "nukeText": "Стереть",
+        "nukeSuccess": "стирание стены обсуждения",
+        "nukeError": "стирании стены обсуждения",
+        
+        "redirectText": "Перенаправление",
+        "redirectDesc": "Введите название стены обсуждения, на которую Вы желаете перенаправлять с этой страницы, и нажмите кнопку 'Выполнить'.",
+        "redirectSuccess": "перенаправление стены обсуждения",
+        "redirectError": "перенаправлении стены обсуждения",
+        
+        "unredirectText": "Удалить перенаправление",
+        "unredirectDesc": "Чтобы удалить перенаправление с этой стены обсуждения, нажмите кнопку 'Выполнить'.",
+        "unredirectSuccess": "удаление перенаправления со стены обсуждения",
+        "unredirectError": "удалении перенаправления со стены обсуждения",
+        "noRedirectError": "Нет перенаправления с этой страницы!"
+    }
+    /* Add translations below this line*/
+} /* Do not edit this line or below </syntaxhighlight> */

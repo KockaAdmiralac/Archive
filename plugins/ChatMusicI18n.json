@@ -1,0 +1,10 @@
+{
+    "en": {
+        "name": "Chat music",
+        "placeholder": "Enter music URL...",
+        "play": "Play",
+        "stop": "Stop",
+        "join": "Join",
+        "leave": "Leave"
+    }
+}

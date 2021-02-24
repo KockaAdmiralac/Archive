@@ -1,0 +1,22 @@
+        query: function(action, callback, data, method) {
+            data = data || {};
+            data.action = action;
+            this.api[method || 'GET'](data)
+                .done($.proxy(function(d) {
+                    if (d.error) {
+                        console.error('API error: ' + d.error.code + ':' + d.error.info);
+                    } else {
+                        if (d[action + '-continue']) {
+                            $.each(d[action + '-continue'], function(k, v) {
+                                console.log('Continuing on API ' + k);
+                                $.extend(data, v);
+                            });
+                            this.query(action, callback, data, method);
+                        }
+                        this['cb' + callback].call(this, d[action]);
+                    }
+                }, this))
+                .fail(function(e) {
+                    console.log(e);
+                });
+        },

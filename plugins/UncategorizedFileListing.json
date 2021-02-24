@@ -1,0 +1,70 @@
+/* <syntaxhighlight lang="javascript"> */
+/**
+ * This page is used as a resource for messages used in the UncategorizedFileListing script
+ * List of rules:
+ * - The page needs to follow JSON syntax:
+ * -- First-level keys are language codes
+ * -- Second-level keys are message codes (described in the English translation)
+ * -- No other levels or keys except described should be used
+ * - A language must not be partially translated - all messages must exists
+ * - CSS-style comments can be used.
+ * - For language fallback, add a string with the language code to fall back to instead of an object.
+ * List of currently translated languages and translators:
+ *  - English              - KockaAdmiralac
+ *  - Serbian              - KockaAdmiralac
+ *  - Brazilian Portuguese - Soul Wade
+ */
+{ /* Do not edit this line */
+    /* English */
+    "en": {
+        /* Title */
+        "title"          : "Uncategorized file listing",
+        /* Refresh button */
+        "refresh"        : "Refresh list",
+        /* While hovering over the image while refreshing */
+        "refreshing"     : "Refreshing...",
+        /* On the beginning of every API error */
+        "error"          : "An error occurred while",
+        /* An error on fetching the list */
+        "pageFetchError" : "fetching the list of unused images",
+        /* An error on fetching links to an item in a list */
+        "backlink"       : "fetching backlinks"
+    },
+    /* Српски - Ћирилица */
+    "sr": {
+        "title"          : "Листа датотека без категорија",
+        "refresh"        : "Освежи листу",
+        "refreshing"     : "Освежавање...",
+        "error"          : "Десила се грешка приликом",
+        "pageFetchError" : "добијања листе некоришћених фајлова",
+        "backlink"       : "тражења веза до странице"
+    },
+    /* Srpski - Latinica */
+    "sr-el": {
+        "title"          : "Lista datoteka bez kategorija",
+        "refresh"        : "Osveži listu",
+        "refreshing"     : "Osvežavanje...",
+        "error"          : "Desila se greška prilikom",
+        "pageFetchError" : "dobijanja liste nekorišćenih fajlova",
+        "backlink"       : "traženja veza do stranice"
+    },
+    /* Português do Brasil */
+    "pt-br": {
+        "title"          : "Listagem de Arquivos Não-Categorizados",
+        "refresh"        : "Atualizar Lista",
+        "refreshing"     : "Atualizando...",
+        "error"          : "Um erro foi encontrado ao",
+        "pageFetchError" : "buscar a lista de imagens não usadas",
+        "backlink"       : "buscar backlinks"
+    },
+    /* Русский */
+    "ru": {
+        "title"          : "Список файлов без категорий",
+        "refresh"        : "Обновить лист",
+        "refreshing"     : "Обновление...",
+        "error"          : "Произошла ошибка при",
+        "pageFetchError" : "загрузке списка неиспользуемых файлов",
+        "backlink"       : "загрузке ссылок"
+    }
+    /* Add translations below this line */
+}  /* Do not edit this line and below </syntaxhighlight> */

@@ -1,0 +1,48 @@
+/**
+ * Stylesheet for AdoptionsLog
+ */
+#AdoptionsLogList {
+    color: white;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	columns: 2;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#AdoptionsLogList td {
+    border: 1px solid black;
+    margin: 0;
+    padding: 10px;
+}
+
+#AdoptionsLogList tr {
+    width: 50%;
+}
+
+#AdoptionsLogList td > a {
+    font-size: 24px;
+}
+
+.AdoptionsLogContributors {
+    font-size: 12px;
+}
+
+#AdoptionsLogList a {
+    color: black;
+    font-weight: bold;
+}
+
+.AdoptionsLogWhitelist {
+	background-color: green;
+}
+
+.AdoptionsLogNeedCheck {
+    background-color: yellow;
+}
+
+.AdoptionsLogUnanswered {
+    background-color: red;
+}
+
+
