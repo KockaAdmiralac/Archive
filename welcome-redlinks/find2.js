@@ -9,7 +9,7 @@ let res2 = [];
 
 pages.forEach(function(el, i) {
     const link = links[i];
-    if (link.startsWith('Diskussionsfaden:') || link.startsWith('Benutzer:')) {
+    if (link.startsWith('Thread:') || link.startsWith('User:')) {
         return;
     }
     if (!res[link]) {

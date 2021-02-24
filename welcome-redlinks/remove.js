@@ -1,24 +1,22 @@
 var api = new mw.Api(),
     pages,
     pageC = {},
-    regex = /auf der Seite (?:\[\[:([^\|\]]+)\|([^\]]+)\]\]|\[\[:?([^\]]+)\]\])/,
+    regex = /Welcome \[\[\:(.*?)\]\]/,
     keys,
     interval = 10000,
     summary = 'Removing redlinks',
-    debug = true;
+    debug = false;
 
 function init() {
     console.log('Editing pages...');
     $.each(pageC, function(k, v) {
         var match = regex.exec(v);
-        regex.lastIndex = 0;
         if (!match) {
             console.error(v);
         } else {
             pageC[k] = v
-                .replace(regex, 'auf der Seite \'\'\'' + (match[3] || match[2] || match[1]) + '\'\'\'')
-                .replace('<ac_metadata title="Begrüßung eines neuen Clashers"> </ac_metadata>', '')
-                .replace('<ac_metadata title="Begrüßung eines neuen Autors"> </ac_metadata>', '');
+                .replace(regex, 'Welcome ' + match[1] + '')
+                .replace(/<ac_metadata title="[^"]+"> <\/ac_metadata>\s*$/, '');
         }
     });
     keys = Object.keys(pageC);
@@ -28,11 +26,11 @@ function init() {
 function remove() {
     var page = keys.shift();
     if (debug) {
-        console.log('Editing Thread:' + page + ' with contents:\n' + pageC[page] + '\n------------------------');
+        console.log('Editing Thread:' + page + ' with contents:\n' + pageC[page]);
     } else {
         $.nirvana.postJson('WallExternal', 'editMessageSave', {
             msgid: Number(page),
-            newtitle: 'Begrüßung eines neuen Clashers',
+            newtitle: 'Welcome to Forge of Empires Wiki!',
             newbody: pageC[page],
             pagetitle: page,
             pagenamespace: 1201,
@@ -69,7 +67,7 @@ function contents(d) {
     }).done(contents);
 }
 
-$.get('https://gist.githubusercontent.com/KockaAdmiralac/45f7b1b686527407d52fba2409a35f26/raw/7471104b68d22b08e8c8dcdf7d93159c587981eb/redlinks.txt', function(d) {
+$.get('https://gist.githubusercontent.com/KockaAdmiralac/e91e0fad2f8c2c810a0a80876f64bc48/raw/f7b6c2ca358a1ec7c157d7c20b688337e8d703ae/redlinks.txt', function(d) {
     console.log('Fetching contents of pages with redlinks...');
     pages = d.trim().split('\n');
     contents();

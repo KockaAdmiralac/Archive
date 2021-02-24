@@ -1,19 +1,13 @@
 'use strict';
 const Bot = require('nodemw'),
       bot = new Bot('config.json'),
-      fs = require('fs'),
-      pages = fs.readFileSync('source.txt').toString().split('\n');
+      fs = require('fs');
+
 let res = [];
 
 function init() {
     console.log('Logged in!');
-    setInterval(interval, 5000);
     list();
-}
-
-function interval() {
-    console.log(res.length);
-    fs.readFileSync('res.txt', res.join('\n'));
 }
 
 function list(err, data, next) {

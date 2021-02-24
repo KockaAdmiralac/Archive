@@ -4,6 +4,6 @@
       "debug": false,
       "username": "KockaBot",
       "password": "yes",
-      "userAgent": "woah it's nodemw",
-      "concurrency": 20
+      "userAgent": "welcome-redlinks v0.0.1",
+      "concurrency": 40
 }

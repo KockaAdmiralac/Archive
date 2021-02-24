@@ -10,7 +10,6 @@ function ids(err, data) {
         console.error(err);
         return;
     } else if (data) {
-        console.log(data);
         res = res.concat(Object.keys(data.pages));
     }
     if (pages.length === 0) {
@@ -24,4 +23,4 @@ function ids(err, data) {
     }, ids);
 }
 
-bot.logIn('KockaBot', '---', () => ids());
+bot.logIn('KockaBot', require('./config.json').password, () => ids());

@@ -33,7 +33,7 @@ function contents(err, data) {
                 continue;
             }
             const text = revs[0]['*'];
-            if (text.startsWith('#WEITERLEITUNG')) {
+            if (text.startsWith('#REDIRECT')) {
                 continue;
             }
             const stuff = regex.exec(text);
