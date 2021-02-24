@@ -1,0 +1,68 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #581845;
+    color: #D5D4D5;
+    font-family: Roboto, "Segoe UI", Arial;
+    text-align: center;
+}
+
+#sql-injection {
+    text-align: center;
+}
+
+#sql-injection form {
+    display: inline-block;
+}
+
+header {
+    background-color: #C70039;
+    height: 50px;
+}
+
+header h1 {
+    height: 50px;
+    line-height: 50px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: left;
+    width: 85%;
+}
+
+main > section {
+    background-color: #FF5733;
+    border: 1px solid #900C3F;
+    box-sizing: border-box;
+    flex: 0 50%;
+    padding: 10px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+input, textarea {
+    background-color: #FFC30F;
+    border: 1px solid #900C3F;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+ul li {
+    margin-left: 1em;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+}
