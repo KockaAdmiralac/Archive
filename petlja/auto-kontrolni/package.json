@@ -1,0 +1,27 @@
+{
+    "name": "petlja-auto-kontrolni",
+    "version": "0.1.0",
+    "description": "Automatski kontrolni preko Arene.",
+    "keywords": [
+        "petlja",
+        "school"
+    ],
+    "license": "GPL-3.0-or-later",
+    "author": {
+        "name": "KockaAdmiralac",
+        "email": "1405223@gmail.com",
+        "url": "https://github.com/KockaAdmiralac"
+    },
+    "contributors": [],
+    "dependencies": {
+        "open": ">=6.3.0",
+        "petlja": ">=0.1.2",
+        "polo": ">=0.8.1",
+        "request": ">=2.88.0",
+        "request-promise-native": ">=1.0.7"
+    },
+    "devDependencies": {
+        "eslint": ">=5.16.0"
+    },
+    "private": true
+}
