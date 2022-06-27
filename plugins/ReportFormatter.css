@@ -1,0 +1,11 @@
+/**
+ * Stylesheet for [[User:KockaAdmiralac/ReportFormatter.javascript]]
+ */
+#ReportFormatterTextarea {
+    height: 400px;
+    width: 100%;
+}
+
+#ReportFormatterSelect, #ReportFormatterUnique {
+    width: 100%;
+}
