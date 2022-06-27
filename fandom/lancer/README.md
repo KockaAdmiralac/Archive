@@ -1,0 +1,2 @@
+# lancer
+Undertale Wiki Discord server April Fools joke of the year 2022. This was a [Lancer](https://deltarune.fandom.com/wiki/Lancer)-themed bot that played [cartoon splat sounds](https://youtu.be/lO7jKIVk8Zo) in a voice channel. I left it running afterwards, but, unfortunately, DigitalOcean had [an incident](https://status.digitalocean.com/incidents/xkpsn9hbnnlz) and the bot disconnected once and for always.
