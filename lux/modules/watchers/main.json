@@ -1,0 +1,10 @@
+{
+    "name": "watchers",
+    "description": "Utility access service for Wikia Watchers",
+    "version": [0, 0, 1],
+    "dependencies": [
+        "http",
+        "ws",
+        "db"
+    ]
+}

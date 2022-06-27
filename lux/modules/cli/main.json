@@ -1,0 +1,5 @@
+{
+    "name": "cli",
+    "description": "Service for listening to CLI input and responding",
+    "version": [0, 0, 1]
+}

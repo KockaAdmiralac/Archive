@@ -1,0 +1,6 @@
+{
+    "name": "http",
+    "description": "HTTP meta-service providing web server integration to other services",
+    "version": [0, 0, 1],
+    "integratable": true
+}

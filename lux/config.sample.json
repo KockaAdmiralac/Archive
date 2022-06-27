@@ -1,0 +1,18 @@
+{
+    "title": "Lux test",
+    "services": {
+        "example2": {
+            "dep": "example1"
+        },
+        "example1": {
+        }
+    },
+    "permissions": {
+        "example1": {
+            "signal": [
+                "example2"
+            ]
+        }
+    },
+    "debug": true
+}
