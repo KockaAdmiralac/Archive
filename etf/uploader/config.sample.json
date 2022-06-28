@@ -1,0 +1,24 @@
+{
+    "videoDir": "/home/user/Videos",
+    "downloadsDir": "/home/user/Downloads",
+    "chromiumData": "/tmp/chromium",
+    "subjects": {
+        "SUB1": {
+            "id": "dab42ce1-a8b0-4f53-a059-15d7e0d8fe3a",
+            "p": {
+                "id": "71555f32-dedb-4ddb-824b-7769819530af",
+                "teachers": [
+                    "Teacher Name 1",
+                    "Teacher Name 2"
+                ]
+            },
+            "v": {
+                "id": "9c84147c-3bba-4ac3-8a69-9605d8dc9c0e",
+                "teachers": [
+                    "Teacher Name 1",
+                    "Teacher Name 2"
+                ]
+            }
+        }
+    }
+}

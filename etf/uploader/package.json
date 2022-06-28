@@ -1,0 +1,30 @@
+{
+    "name": "ms-stream-uploader",
+    "version": "1.0.0",
+    "description": "Uploads a downloaded video to Microsoft Stream and OneDrive.",
+    "type": "module",
+    "keywords": [
+        "microsoft-stream",
+        "onedrive",
+        "microsoft-teams"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "KockaAdmiralac",
+        "email": "git@kocka.tech",
+        "url": "https://kocka.tech"
+    },
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KockaAdmiralac/services.git"
+    },
+    "dependencies": {
+        "cli-progress": ">=3.9.0",
+        "got": ">=11.8.1",
+        "puppeteer": ">=5.4.1"
+    }
+}
