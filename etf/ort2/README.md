@@ -1,0 +1,2 @@
+# ORT2
+Scripts that I used as an Undergraduate Teaching Assistant on Basics of Computer Engineering 2, where we had to check student answers to laboratory questions on two of their laboratory practices. Here, `run.sh` converts all documents into text files, and `extract.py` extracts their answers into a CSV file that I can later import into Google Sheets for easier reading. Files had to be placed under a `files` directory for `run.sh` to read them.
