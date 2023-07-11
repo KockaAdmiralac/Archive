@@ -1,0 +1,14 @@
+@media print {
+    form {
+        display: none;
+    }
+}
+
+#diagram-generator-error {
+    color: red;
+    width: 100%;
+}
+
+#diagram-generator-result {
+	background-color: white;
+}
