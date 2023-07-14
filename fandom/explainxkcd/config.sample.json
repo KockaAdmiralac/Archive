@@ -1,0 +1,5 @@
+{
+    "username": "MediaWiki bot password username",
+    "password": "MediaWiki bot password password",
+    "target": "Username of the user to mass-revert"
+}
