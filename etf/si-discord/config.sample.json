@@ -1,0 +1,21 @@
+{
+    "db": {
+        "host": "MySQL database host",
+        "user": "MySQL database user",
+        "password": "MySQL database user",
+        "database": "MySQL database name",
+        "waitForConnections": true,
+        "connectionLimit": 10,
+        "queueLimit": 0
+    },
+    "token": "Discord bot token",
+    "server": "Discord server ID",
+    "role": "ID of the role to assign (add-roles.js)",
+    "ignoredRoles": [
+        "Role IDs whose members are ignored while executing discord-diff.js"
+    ],
+    "username": "Student portal username (subjects.js)",
+    "password": "Student portal password (subjects.js)",
+    "channel": "ID of the channel where the voting commences (voting.js)",
+    "message": "ID of the message with reactions for voting (voting.js)"
+}

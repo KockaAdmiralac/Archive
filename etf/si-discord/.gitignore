@@ -1,0 +1,9 @@
+config.json
+discord.json
+roles-convert.json
+subjects.json
+node_modules
+roles
+*.csv
+*.txt
+*.vcf

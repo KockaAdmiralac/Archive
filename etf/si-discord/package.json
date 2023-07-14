@@ -1,0 +1,27 @@
+{
+    "name": "si-discord",
+    "version": "1.0.0",
+    "description": "Maintenance scripts for SI Discord.",
+    "keywords": [
+        "etf",
+        "discord"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "Luka Simić",
+        "email": "git@kocka.tech",
+        "url": "https://kocka.tech"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KockaAdmiralac/Archive.git",
+        "directory": "etf/si-discord"
+    },
+    "dependencies": {
+        "discord.js": "13.3.1",
+        "got": "11.8.6",
+        "mysql2": "2.3.3",
+        "tough-cookie": "4.1.2",
+        "vcf": "2.1.1"
+    }
+}
