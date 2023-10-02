@@ -1,0 +1,23 @@
+{
+    "reporting": {
+        "id": "Discord webhook ID for logging service information",
+        "token": "Discord webhook token for logging service information",
+        "user": "Discord ID of the user to ping when there are anomalies"
+    },
+    "groups": [
+        {
+            "webhookId": "Discord webhook ID",
+            "webhookToken": "Discord webhook token",
+            "callNumber": "381",
+            "channelId": "Discord channel ID for relaying",
+            "guildId": "Discord guild ID where messages are relayed"
+        }
+    ],
+    "si": {
+        "password": "Password for the SI database user"
+    },
+    "ping": {
+        "contact": "381647777777@c.us"
+    },
+    "number": "381601234567"
+}
