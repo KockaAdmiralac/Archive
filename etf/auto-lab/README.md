@@ -18,6 +18,8 @@ Rename the `config.sample.json` file to `config.json` and change the fields as f
     - `password`: Your password for student services.
 - `interval`: Interval of time in which to check for updates. **Required.**
 
+Most recent versions of this service use the `etf-proxy` service as well. To configure it, please create a `config.json` file within the `etf-proxy` directory with the contents of `{"disable": true}`.
+
 ## Running
 To run the project, use:
 ```console
