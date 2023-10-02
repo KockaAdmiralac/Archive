@@ -1,0 +1,6 @@
+{
+    "disable": true,
+    "port": 3535,
+    "token": "Long random token goes here",
+    "url": "http://localhost:3535"
+}
