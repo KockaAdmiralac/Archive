@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "got": "^13.0.0",
+    "node-html-parser": "^6.1.6"
+  },
+  "type": "module"
+}
