@@ -1,0 +1,19 @@
+#MiniMasthead {
+    width: 150px;
+    z-index: 10000;
+    background-color: #DDD;
+    border: 1px solid black;
+    top: 0;
+}
+
+.MiniMastheadLabel {
+    font-weight: bold;
+}
+
+.MiniMastheadLabel, .MiniMastheadValue {
+    display: inline-block;
+}
+
+.MiniMastheadGroup .avatar {
+    border: 0;
+}
