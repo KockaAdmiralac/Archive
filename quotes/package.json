@@ -1,0 +1,18 @@
+{
+    "name": "quotes",
+    "description": "Generates random quotes for my Discord status.",
+    "version": "0.0.0",
+    "private": true,
+    "keywords": [
+        "discord"
+    ],
+    "author": {
+        "email": "git@kocka.tech",
+        "name": "Luka Simić",
+        "url": "https://kocka.tech"
+    },
+    "scripts": {
+        "start": "node main.js"
+    },
+    "type": "module"
+}
