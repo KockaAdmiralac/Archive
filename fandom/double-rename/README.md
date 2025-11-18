@@ -1,5 +1,5 @@
 # Double rename redirect resolver
-A cross-wiki maintenance script written after Ripto22475 renamed to Riptoze and then to [Icier](https://community.fandom.com/wiki/User:Icier). The global action has been documented [here](https://kocka.fandom.com/wiki/KockaBot#Icier_rename).
+A cross-wiki maintenance script written after Ripto22475 renamed to Riptoze and then to [Icier](https://community.fandom.com/wiki/User:Icier). The global action has been documented [here](https://web.archive.org/web/20230810213210/https://kocka.fandom.com/wiki/KockaBot#Icier_rename).
 
 ## Scripts
 - `makelist.js` - Creates a list of wiki subdomains to find userpages on from a specified `wikis.json` file (see `list-wikis` archive).

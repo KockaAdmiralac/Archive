@@ -7,7 +7,7 @@ A collection of Fandom plugins I wrote that I probably won't need anymore.
 - `listnamespacepages.js` - Simple script that lists all pages in a given
   namespace that aren't redirects.
 - `filelist.js` - Adds checkboxes into Special:ListFiles and adds checked pages
-  into an array. I used it on [OneShot Wiki](https://oneshot.fandom.com) in the
+  into an array. I used it on [OneShot Wiki](https://oneshot.wiki.gg) in the
   process of mass-categorizing files.
 - `RevertToOldid.js` - Reverts a given list of pages to the last revision with
   the specified revision ID. Written for and along with 

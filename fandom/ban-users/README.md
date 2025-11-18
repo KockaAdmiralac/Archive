@@ -1,6 +1,6 @@
 # Ban users :^)
 This collection of scripts was used for an April Fools joke on the
-[Undertale Wiki's Discord server](https://undertale.fandom.com/wiki/Project:Discord)
+[Undertale Wiki's Discord server](https://undertale.wiki/w/Project:Discord)
 where all nicknames of members were changed to "banned". After the joke, this
 collection was used to revert the renamed users.
 
